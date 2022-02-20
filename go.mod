@@ -2,7 +2,10 @@ module github.com/t2h5/alfred-faker
 
 go 1.17
 
-require github.com/deanishe/awgo v0.29.1
+require (
+	github.com/bxcodec/faker/v3 v3.7.0
+	github.com/deanishe/awgo v0.29.1
+)
 
 require (
 	github.com/magefile/mage v1.11.0 // indirect
